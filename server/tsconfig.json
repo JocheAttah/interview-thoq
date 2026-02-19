@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2016", // Which version of JS to output (modern is good)
+    "module": "commonjs", // Node.js uses CommonJS (require/module.exports)
+    "rootDir": "./src", // Where your TS files live
+    "outDir": "./dist", // Where the compiled JS files will go
+    "strict": true, // BE STRICT! Don't let us be lazy.
+    "esModuleInterop": true, // Allows cleaner imports (import x from 'x')
+    "skipLibCheck": true // Speeds up compilation
+  },
+  "include": ["src/**/*"] // Only look at files inside src
+}
